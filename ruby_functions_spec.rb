@@ -90,6 +90,13 @@ class Functions_Practice < MiniTest::Test
 
   #Given a value in farenheit, convert this into celsius.
   def test_fahrenheit_to_celsius()
+    farenheit_one = farenheit_to_celsius(22)
+    farenheit_two = farenheit_to_celsius(99)
+    farenheit_three = farenheit_to_celsius(32)
+    assert_equal(-5.55, farenheit_one)
+    assert_equal(37.22, farenheit_two)
+    assert_equal(0, farenheit_three)
+
     #add test code here
   end
 
