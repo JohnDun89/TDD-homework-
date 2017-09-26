@@ -13,3 +13,7 @@ end
 def multiply(number_one, number_two)
   number_one * number_two
 end
+
+def divide(number_one, number_two)
+  number_one / number_two
+end
