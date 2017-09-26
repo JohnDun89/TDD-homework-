@@ -21,3 +21,7 @@ end
 def length_of_string(test_string)
   return test_string.length
 end
+
+def join_string(string_one, string_two)
+  return "#{string_one}#{string_two}"
+end
